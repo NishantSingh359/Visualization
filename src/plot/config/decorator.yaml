@@ -1,1 +1,74 @@
+common:
 
+  fontname: "Times New Roman"
+
+  title:
+    size: 20
+    color: "gray"
+    weight: "bold"
+    style: "italic"
+    loc: "left"
+    pad: 20
+
+  axis:
+    xaxis:
+      label:
+        size: 15
+        color: "gray"
+        weight: None
+        style: None
+
+      ticks:
+        size: 12
+        color: "gray"
+        rotation: 90
+        weight: None
+        style: None
+
+    yaxis:
+      label:
+        size: 15
+        color: "gray"
+        weight: None
+        style: None
+
+      ticks:
+        size: 12
+        color: "gray"
+        rotation: 0
+        weight: None
+        style: None
+
+    tick:
+      size: 5
+      color: "gray"
+
+  line:
+    vline:
+      color: "gray"
+      alpha: .7
+      style: "--"
+      width: 1
+
+    hline:
+      color: "gray"
+      alpha: .7
+      style: "--"
+      width: 1
+
+  colors:
+    color1: "#000000"
+    color2: "#282828"
+    color3: "#555554"
+    color4: "#878786"
+
+columnplot:
+  edgecolor: None
+  linewidth: None
+  linestyle: None
+  hatch: None
+
+lineplot: 
+  edgecolor: None
+  linewidth: None
+  linestyle: None
